@@ -1,1 +1,1 @@
-web: streamlit run levray_dominique_1_dashboard_082024:app --host=0.0.0.0 --port=$PORT
+web: sh setup.sh && streamlit run levray_dominique_1_dashboard_082024.py
